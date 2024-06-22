@@ -6,6 +6,12 @@ type _props = {
 const Main = ({ children }: _props) => {
     return (
         <div className='main'>
+            <nav className='main-nav'>
+                <div>texas</div>
+                <div>Ohio</div>
+                <div>Pensylvania</div>
+                <div>Washington</div>
+            </nav>
             <div className='main-secondary'>
                 <section className='main-section'>
                     <div style={{
@@ -14,17 +20,16 @@ const Main = ({ children }: _props) => {
                         gap: '10px',
                         padding: '0px 0px 25px 0px',
                         textAlign: 'center',
-                        justifyContent:'center',
+                        justifyContent:'start',
                         margin:'0 auto'
                     }}>
                         <div style={{
-                            height: '60px',
-                            width: '60px',
+                            height: '80px',
+                            width: '80px',
                             backgroundColor: 'black',
                             borderRadius: '50%',
-                            border: '1px solid red'
                         }}></div>
-                        <div style={{}}>name</div>
+                        <div style={{}}>Akira</div>
                     </div>
                     <div className='main-section-topic'>
                         <div>Home</div>
